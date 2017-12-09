@@ -8,7 +8,8 @@
 ### Установка
 Скрипт работает во **всех популярных браузерах** (Chome, Firefox, Opera).
 
-* Скайчайте файл со скриптом candle_calculator.user.js на свой ПК. 
+Следуйте простой инструкции:
+* Скайчайте файл со скриптом *candle_calculator.user.js* на свой ПК. 
 * Установить расширение tampermonkey [Например, для Chome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ru)
 * Кликните по значку tampermonkey и выберите пункт меню "Добавить новый скрипт".
 * Удалите весь код с экрана (если вместо кода Вы видите преветственное окно, просто повторите предыдущий пункт еще раз).
