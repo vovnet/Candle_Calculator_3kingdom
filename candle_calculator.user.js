@@ -2,7 +2,7 @@
 // @name         Candle Calculator
 // @namespace    http://your.homepage/
 // @version      0.1
-// @description  enter something useful
+// @description  Анализатор светочей в игре Троецарствие.
 // @author       Vladimir Velikiy
 // @include     https://3k.mail.ru/main.php*
 // @include     http://3k.mail.ru/main.php*
@@ -133,7 +133,8 @@
     function getUserCandleCount(candleName) {
         for (var i in _top().art_alt) {
             if (_top().art_alt[i].title == candleName) {
-                return _top().art_alt[i].count;
+                count = (_top().art_alt[i].count >= 2) ? _top().art_alt[i].count : 1;
+                return count;
             }
         }
         return 0;
